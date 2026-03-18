@@ -1,3 +1,3 @@
-<div>
-    {{ $product['name'] }}
-</div>
+<x-layouts.app>
+  {{ $product['name'] }}
+</x-layouts.app>
