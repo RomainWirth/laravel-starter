@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class ProductController extends Controller
+{
+    public function index()
+    {
+        $products = [
+            ["name" => "Product 1", "price" => 10],
+            ["name" => "Product 2", "price" => 20],
+            ["name" => "Product 3", "price" => 30],
+        ];
+
+        return view('products', ['products' => $products]);
+    }
+}
