@@ -1,5 +1,5 @@
 <div>
-  <a href="{{ route('products.show', ['key' => $product['key']]) }}">
-    {{ $product['name'] }}
+  <a href="{{ route('products.show', ['id' => $product->id]) }}">
+    {{ $product->name }}
   </a>
 </div>

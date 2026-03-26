@@ -2,8 +2,8 @@
 
 <x-layouts.app>
   <div>
-    <h2>Fiche produit : {{ $product['name'] }}</h2>
-    <p>Prix: €{{ $product['price'] }}</p>
+    <h2>Fiche produit : {{ $product->name }}</h2>
+    <p>Prix: €{{ $product->price }}</p>
   </div>
   <div>
     <h3>Autres produits</h3>
